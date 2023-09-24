@@ -419,5 +419,6 @@ pub use crate::row::{Node, Path, Point2D, Point3D, Relation, Row, UnboundedRelat
 pub use crate::stream::RowStream;
 pub use crate::txn::Txn;
 pub use crate::types::BoltType;
+pub use create::types::null::BoltNull;
 pub use crate::types::serde::{EndNodeId, Id, Keys, Labels, StartNodeId, Type};
 pub use crate::version::Version;
